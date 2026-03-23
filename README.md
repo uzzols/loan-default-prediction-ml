@@ -31,3 +31,26 @@ The Gradient Boosting model achieved the highest accuracy of approximately 88.7%
 - Pandas
 - Scikit-learn
 - Matplotlib
+## Project 2: Class Imbalance Study
+
+This project investigates the effect of class imbalance handling techniques on loan default prediction.
+
+### Techniques Used
+- SMOTE
+- Class Weighting
+
+### Key Results
+- Baseline Recall (Default Class): 0.05
+- Gradient Boosting + SMOTE Recall: 0.17
+- Logistic Regression + Class Weight Recall: 0.66
+
+### Figures
+
+#### Recall Comparison
+![Recall Comparison](figures/project2/project2_recall_comparison.png)
+
+#### Confusion Matrix
+![Confusion Matrix](figures/project2/project2_confusion_matrix_smote.png)
+
+### Paper
+[Download Paper 2](paper2/loan_default_class_imbalance_study.pdf)
