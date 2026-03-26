@@ -54,3 +54,31 @@ This project investigates the effect of class imbalance handling techniques on l
 
 ### Paper
 [Download Paper 2](paper2/loan_default_class_imbalance_study.pdf)
+
+# Loan Default Prediction using XGBoost with Class Imbalance Handling
+
+## Overview
+This project analyzes loan default prediction using machine learning, focusing on class imbalance challenges.
+
+## Dataset
+- 255,347 observations
+- 11.6% default rate
+- Imbalanced dataset (7.6:1 ratio)
+
+## Models Used
+- XGBoost
+- XGBoost (Class Weighted)
+
+## Results
+| Model | Accuracy | Recall (Default) | AUC |
+|------|--------|----------------|-----|
+| XGBoost | 0.887 | 0.088 | 0.744 |
+| Weighted XGBoost | 0.717 | 0.627 | 0.740 |
+
+## Key Insight
+Improving recall for default cases is more important than maximizing accuracy in financial risk modeling.
+
+## Tools
+- Python
+- XGBoost
+- Scikit-learn
